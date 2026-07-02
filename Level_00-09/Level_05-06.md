@@ -4,6 +4,7 @@
 **Concepts Required:** Finding files based on specific properties.
 
 **Solution:** the level wants us to find a file that have these properties 
+
 *1- human readable*
 
 *2-1033 bytes in size*

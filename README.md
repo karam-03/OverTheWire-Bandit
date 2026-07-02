@@ -10,7 +10,7 @@ OverTheWire requests that players do not publish the passwords to the levels. In
 ## Table of Contents
 
 ### Levels 0 - 9
-* [Level 0 -> Level 1](./Level_00-09/Level_00-01.md)
+* [Level 0 -> Level 1](Level_00-09/Level_00-01)
 * [Level 1 -> Level 2](./Level_00-09/Level_01-02.md)
 ...
 

@@ -4,15 +4,19 @@
 **Concepts Required:** Finding files based on specific properties.
 
 **Solution:** the level wants us to find a file that have these properties 
-*1- human readable
-2-1033 bytes in size 
-3- not executable*
+*1- human readable*
+*2-1033 bytes in size*
+*3- not executable*
 so we should use `find` command that have a lot of options , we should find the appropriate options from the man page and we'll use these options 
 
-*1-the dot ( . ) for tell the tool to look the current directory [inhere]*\n
-*2- -type to tell the tool to look just for the type that we need [f is suppose to be file]*\n
-*3- -size to tell the tool to look for the size that we need [c is suppose to be bytes]*\n
-*4- -executable to tell the tool to look for the executable files [! suppose to be not executable]*\n
+*1-the dot ( . ) for tell the tool to look the current directory [inhere]*
+
+*2- -type to tell the tool to look just for the type that we need [f is suppose to be file]*
+
+*3- -size to tell the tool to look for the size that we need [c is suppose to be bytes]*
+
+*4- -executable to tell the tool to look for the executable files [! suppose to be not executable]*
+
 
 the final command : `find . -type f -size 1033c ! -executable`
 

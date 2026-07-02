@@ -5,11 +5,14 @@
 
 **Solution:** the level wants us to find a file that have these properties 
 *1- human readable*
+
 *2-1033 bytes in size*
+
 *3- not executable*
+
 so we should use `find` command that have a lot of options , we should find the appropriate options from the man page and we'll use these options 
 
-*1-the dot ( . ) for tell the tool to look the current directory [inhere]*
+*1- the dot ( . ) for tell the tool to look the current directory [inhere]*
 
 *2- -type to tell the tool to look just for the type that we need [f is suppose to be file]*
 

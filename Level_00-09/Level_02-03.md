@@ -1,9 +1,9 @@
-🎯 Level 2 -> Level 3
-Objective: The password for the next level is stored in a file called --spaces in this filename-- located in the home directory.
+## 🎯 Level 2 -> Level 3
+**Objective:** The password for the next level is stored in a file called `--spaces in this filename--` located in the home directory.
 
-Concepts Required: Escaping spaces in filenames or using quotes.
+**Concepts Required:** Escaping spaces in filenames or using quotes.
 
-Solution: you can use write the full path and use the button TAP to complete the right path because there are spaces and the file name , so the file would take these spaces as another file name 
+**Solution:** you can use write the full path and use the button `TAP` to complete the right path because there are spaces and the file name , so the file would take these spaces as another file name 
 ```bash
 ssh -l bandit2 bandit0@bandit.labs.overthewire.org -p 2220
 

@@ -4,7 +4,7 @@ Objective: The password for the next level is stored in a file called --spaces i
 Concepts Required: Escaping spaces in filenames or using quotes.
 
 Solution: you can use write the full path and use the button TAP to complete the right path because there are spaces and the file name , so the file would take these spaces as another file name 
-'''bash
+```bash
 ssh -l bandit2 bandit0@bandit.labs.overthewire.org -p 2220
 
 
@@ -19,4 +19,4 @@ drwxr-xr-x 150 root    root    4.0K Jun 24 15:02 ..
 
 bandit2@bandit:~$ cat ./--spaces\ in\ this\ filename-- 
 7ZZ2LFrykP2zEyvBl4m3clcL7tGYJPME
-'''
+```

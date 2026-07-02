@@ -7,6 +7,9 @@
 **Solution:**
 To read a file named `-`, you must specify the current directory path `./` so the `cat` command doesn't confuse the filename with an argument.
 ```bash
+┌──(karam03 ♛ HACKER)-[~/Desktop/OverTheWire-Bandit]
+└─$ ssh -l bandit1 bandit0@bandit.labs.overthewire.org -p 2220
+
 bandit1@bandit:~$ cat ./-
-[REDACTED_PASSWORD]
+6y2kwnwK6grgvwvpvLaa2T1cpFEKOhNR
 ```

@@ -17,3 +17,27 @@ OverTheWire requests that players do not publish the passwords to the levels. In
 ### Levels 10 - 19
 * [Level 10 -> Level 11](./Level_10-19/Level_10-11.md)
 ...
+
+## Level 0 -> 1
+the login command:
+`ssh -l bandit0 bandit@bandit.labs.overthewire.org -p 2220`
+you can use the above command to login to the game using `ssh` 
+and you should find a readme file when you do `ls` command 
+to read that file use `cat` command and it should be containing the password for the next level 
+
+```bash
+┌──(karam03 ♛ HACKER)-[~]
+└─$ ssh -l bandit0 bandit@bandit.labs.overthewire.org -p 2220
+
+bandit0@bandit:~$ ls
+readme
+bandit0@bandit:~$ cat readme 
+Congratulations on your first steps into the bandit game!!
+Please make sure you have read the rules at https://overthewire.org/rules/
+If you are following a course, workshop, walkthrough or other educational activity,
+please inform the instructor about the rules as well and encourage them to
+contribute to the OverTheWire community so we can keep these games free!
+
+The password you are looking for is: XXXXXXXXXXXXXXXXXXXXXXXX
+
+```

@@ -10,7 +10,7 @@ OverTheWire requests that players do not publish the passwords to the levels. In
 ## Table of Contents
 
 ### Levels 0 - 9
-* [Level 0 -> Level 1](#level 1 -> 2)
+* [Level 0 -> Level 1](#level-0-1)
 * [Level 1 -> Level 2](./Level_00-09/Level_01-02.md)
 ...
 
@@ -42,6 +42,7 @@ The password you are looking for is: XXXXXXXXXXXXXXXXXXXXXXXX
 
 ```
 
+<a id="level-0-1"></a>
 ## Level 1 -> 2
 *login command :* 
 `ssh -l bandit1 bandit@bandit.labs.overthewire.org -p 2220`

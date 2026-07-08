@@ -1,1 +1,1 @@
-KARAM{D0NT_F1ND_MY_S3CR3T_8827364592}
+KARAM{fake_flag_hahahaha}
